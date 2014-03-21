@@ -1,0 +1,33 @@
+body
+{
+	background-color: #ffd3df;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.bandera
+{
+    background: url(banderas.png) no-repeat top left;
+    padding-right: 2px;
+}
+
+.argentina
+{
+  background-position: 0 0;
+  width: 16px;
+  height: 16px;
+}
+
+.colombia
+{
+  background-position: 0 -21px; 
+  width: 16px; 
+  height: 16px;
+} 
+.peru
+{
+  background-position: 0 -42px; 
+  width: 16px; 
+  height: 16px;
+} 

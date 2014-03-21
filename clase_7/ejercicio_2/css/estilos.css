@@ -1,0 +1,18 @@
+#monacho, #monacho2
+{
+  width: 72px;
+  height: 72px;
+  border: 1px solid red;
+}
+
+.caminar
+{
+  background: url(../img/camina.png) no-repeat top left;
+}
+
+
+.cinco{ background-position: 0 0; width: 72px; height: 69px; } 
+.cuatro{ background-position: -82px 0; width: 72px; height: 69px; } 
+.dos{ background-position: -164px 0; width: 72px; height: 69px; } 
+.tres{ background-position: -246px 0; width: 72px; height: 69px; } 
+.uno{ background-position: -328px 0; width: 72px; height: 69px; } 
