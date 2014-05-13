@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fotos UDEC</title>
+	<script src = "script.js"></script>
+</head>
+<body>
+	<video id="video"></video>
+	<canvas id="canvas"></canvas>
+	<!--
+	<div id="container">
+		<pre id="ascii"></pre>
+	</div>
+	//-->
+	<hr>
+	<button id="boton">Tomar Foto</button>
+	<br>
+	Efecto: 
+	<select id = "efectos">
+	  <option value="0">Ninguno</option>
+	  <option value="1">Blanco y negro</option>
+	  <option value="2">Sephia</option>
+	  <option value="3">Negativo</option>
+	  <option value="4">Ruido</option>
+	  <option value="5">Azul/Verde/Rojo</option>
+	  <option value="6">Sin Verde</option>
+	  <option value="7">Gama</option>
+	  <!-- <option value="7">Ascii</option> //-->
+	</select>
+	<br>
+	Alfa: 
+	<input type="range" id = "alfa" min = "10" max="255" value = '255'>
+	<br>
+	Gama: 
+	<input type="range" id = "gama" min = "1" max="10" value = '1'>
+	<hr>
+	<center>
+		<a href = '#' id = "descarga" download = "estadisticaUDEC.png">
+			Descargar foto
+		</a>
+	</center>
+</body>
+</html>
