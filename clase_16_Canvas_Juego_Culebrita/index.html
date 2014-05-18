@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Culebrita UDEC</title>
+	<script src = "script.js"></script>
+</head>
+<body>
+	<center>
+		<table width = "80%">
+			<tr>
+				<td valign="top" width = "20%">
+					<table border = '0' width = "100%">
+						<tr>
+							<td width = "40%">Fondo</td>
+							<td width = "60%">
+								<input type = "color" id = "opcion_1"/>
+							</td>
+						</tr>
+						<tr>
+							<td>Culebrita</td>
+							<td>
+								<input type = "color" id = "opcion_2"/>
+							</td>
+						</tr>
+						<tr>
+							<td>Comida</td>
+							<td>
+								<input type = "color" id = "opcion_3"/>
+							</td>
+						</tr>
+					</table>
+					<hr>
+					<center>
+						<input type = "button" value = 'Pause' 
+						id = "detiene"></input>
+						<hr>
+						<div id="puntua">
+							Score: 0
+						</div>
+					</center>
+				</td>
+				<td width = "80%">
+					<canvas id="canvas" width="450" height="450">
+						
+					</canvas>
+				</td>
+			</tr>
+		</table>
+		<center>
+		<a href = '#' id = "descarga" download = "estadisticaUDEC.png">
+			Descargar Imagen
+		</a>
+	</center>
+	</center>
+	<div id="sonido" style = "display:none;"></div>
+</body>
+</html>
